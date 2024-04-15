@@ -1,0 +1,26 @@
+{
+  "name": "postman-frontmatter",
+  "version": "0.0.1",
+  "description": "Postman JSON to Front Matter Markdown",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "json-fm": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doob/postman-frontmatter.git"
+  },
+  "author": "Dennis Söderström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doob/postman-frontmatter/issues"
+  },
+  "homepage": "https://github.com/doob/postman-frontmatter#readme",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "type": "module"
+}
